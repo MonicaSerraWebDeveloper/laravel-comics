@@ -6,8 +6,8 @@
             <div class="row-ms">
                 @foreach ($comics as $comic)
                     <div class="comic-card">
-                        <img src="" alt="">
-                        <h4>Title</h4>
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                        <h4>{{ $comic['series'] }}</h4>
                     </div>
                 @endforeach
                 
