@@ -1,5 +1,5 @@
 <header>
-    <div class="container">
+    <div class="container-ms">
         <div class="row-space-between height">
             <div class="logo-container">
                 <a href="#">

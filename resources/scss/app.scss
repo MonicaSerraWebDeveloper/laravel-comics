@@ -1,5 +1,7 @@
 @use './partials/variables' as *;
 @use './partials/header';
+@use './partials/herobanner';
+
 
 @import '~bootstrap/scss/bootstrap';
 
@@ -30,12 +32,12 @@ li {
     LAYOUT
 --------------*/
 
-.container {
+.container-ms {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 
-    .row {
+    .row-ms {
         display: flex;
         flex-wrap: wrap;
     }

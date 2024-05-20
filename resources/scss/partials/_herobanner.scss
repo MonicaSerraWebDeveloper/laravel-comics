@@ -1,0 +1,14 @@
+@use './variables' as *;
+
+.bg-container {
+    height: 300px;
+    background-size: cover;
+    background-image: url('../img/jumbotron.jpg');
+    position: relative;
+
+    .primary-button {
+        position: absolute;
+        bottom: -6%;
+    }
+    
+}
