@@ -1,0 +1,42 @@
+$primary-color: #0282f9;
+$secondary-color: #1c1c1c;
+$tertiary-color: #303030;
+$text-color-primary: #fff;
+
+/* BUTTONS */
+
+.primary-button {
+    font-family: "Cabin Condensed", sans-serif;
+    background-color: $primary-color;
+    padding: 5px 15px;
+    color: $text-color-primary;
+    text-transform: uppercase;
+    border: 1px solid $primary-color;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $text-color-primary;
+        border: 1px solid $text-color-primary;
+        color: $primary-color;
+    }
+}
+
+.secondary-button {
+    font-family: "Cabin Condensed", sans-serif;
+    background-color: $primary-color;
+    padding: 5px 40px;
+    color: $text-color-primary;
+    text-transform: uppercase;
+    border: 1px solid $primary-color;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $text-color-primary;
+        border: 1px solid $text-color-primary;
+        color: $primary-color;
+    }
+}

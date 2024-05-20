@@ -1,0 +1,41 @@
+@use './variables' as *;
+
+.height {
+    height: 120px;
+ }
+
+ .logo-container {
+     display: flex;
+     align-items: center;
+
+     img {
+     width: 80px;
+ }
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+
+     ul {
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+     height: 100%;
+     
+     li {
+         text-transform: uppercase;
+         cursor: pointer;
+         border-bottom: 4px solid #fff;
+         display: flex;
+         height: 100%;
+         align-items: center;
+         
+
+         &:hover {
+            color: $primary-color;
+            border-bottom: 4px solid $primary-color;
+         }
+     }
+ }
+ }

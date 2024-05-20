@@ -1,1 +1,47 @@
+@use './partials/variables' as *;
+@use './partials/header';
+
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    display: block;
+}
+
+/*------------
+    GENERAL
+--------------*/
+
+body {
+    font-family: "Cabin Condensed", sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*------------
+    LAYOUT
+--------------*/
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row-space-between {
+        display: flex;
+        justify-content: space-between;
+    }
+}
