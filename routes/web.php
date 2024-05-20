@@ -18,5 +18,12 @@ Route::get('/', function () {
 });
 
 Route::get('/products', function() {
-    return view('products');
+
+    $comics = config('comics');
+
+    $data = [
+        'comics' => $comics
+    ];
+
+    return view('products', $data);
 });
