@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/', function() {
-    return view('herobanner');
+Route::get('/products', function() {
+    return view('products');
 });

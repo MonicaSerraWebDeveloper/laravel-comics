@@ -23,6 +23,7 @@
     @include('partials.header')
 
     <main>
+        @include('partials.herobanner')
         @yield('content')
     </main>
 
