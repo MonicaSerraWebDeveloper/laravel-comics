@@ -1,0 +1,28 @@
+@use './variables' as *;
+
+.container-bg-icon {
+    background-color: $primary-color;
+
+    .container-logo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+        padding: 50px 20px;
+    }
+
+    img {
+        width: 50px;
+    }
+
+    .title-h3 {
+        text-transform: uppercase;
+        font-weight: 300;
+        color: $text-color-primary;
+        font-size: 18px;
+    }
+
+    .logo-locator {
+        width: 35px;
+    }
+}

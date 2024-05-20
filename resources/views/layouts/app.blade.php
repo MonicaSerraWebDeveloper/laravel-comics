@@ -23,8 +23,9 @@
     @include('partials.header')
 
     <main>
-        @include('partials.herobanner')
+        @include('partials.bannerhero')
         @yield('content')
+        @include('partials.iconlist')
     </main>
 
 </body>
