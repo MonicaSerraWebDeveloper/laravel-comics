@@ -22,6 +22,11 @@
      flex-direction: row;
      gap: 20px;
      height: 100%;
+
+     .link-text {
+        color: $tertiary-color;
+        text-decoration: none;
+     }
      
      li {
          text-transform: uppercase;

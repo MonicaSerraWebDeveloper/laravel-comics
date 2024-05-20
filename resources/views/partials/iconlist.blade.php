@@ -1,6 +1,6 @@
 <div class="container-bg-icon">
     <div class="container-ms">
-        <div class="row-ms">
+        <div class="row-ms justify-content-center">
             <div class="container-logo">
                 <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
                 <h3 class="title-h3">Digital Comics</h3>

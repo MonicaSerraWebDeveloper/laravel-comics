@@ -9,7 +9,7 @@
             <nav>
                 <ul>
                     <li>Characters</li>
-                    <li>Comics</li>
+                    <a class="link-text" href="/products"><li>Comics</li></a>
                     <li>Movies</li>
                     <li>Tv</li>
                     <li>Games</li>

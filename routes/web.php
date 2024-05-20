@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/products', function() {
+Route::get('/comics', function() {
 
     $comics = config('comics');
 

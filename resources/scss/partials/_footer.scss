@@ -1,0 +1,105 @@
+@use './variables' as *;
+
+.container-bg {
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+
+    .container-menu-footer {
+        width: 50%;
+        display: flex;
+    }
+
+    .col-25 {
+        width: calc(100% / 4);
+    }
+
+    .nav-footer {
+        padding-bottom: 20px;
+    }
+
+    .title-h4 {
+        color: $text-color-primary;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .nav-footer > ul {
+        display: block;
+        padding: 0;
+    }
+
+    .nav-footer > li {
+        color: grey;
+        cursor: pointer;
+        list-style: none;
+
+        
+    }
+
+    .nav-footer > ul >li {
+        border-bottom: 0px;
+
+        &:hover {
+            color: lightgray;
+        }
+    }
+
+    
+
+    .container-logo-footer {
+        position: relative;
+        width: 50%;
+
+        img {
+            width: 500px;
+            position: absolute;
+            top: -40%;
+            right: 0;
+        }
+    }
+}
+
+.container-bg-footer-bottom {
+    background-color: $tertiary-color;
+    position: relative;
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .padding-top-bottom {
+        padding: 30px 0;
+    }
+
+    button {
+        text-transform: uppercase;
+        color: $text-color-primary;
+        padding: 10px;
+        background-color: transparent;
+        border: 2px solid $primary-color;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+
+    .container-social {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        span {
+            color: $primary-color;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        img {
+            cursor: pointer;
+        }
+    }
+}

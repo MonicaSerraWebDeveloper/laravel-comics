@@ -28,6 +28,9 @@
         @include('partials.iconlist')
     </main>
 
+    @include('partials.footer')
+
+
 </body>
 
 </html>
