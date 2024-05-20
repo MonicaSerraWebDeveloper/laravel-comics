@@ -17,7 +17,7 @@
 
 <body>
 
-    <header>Questo è l'header</header>
+    @include('partials.header')
 
     <main>
         Questo è il main
